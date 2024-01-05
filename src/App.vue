@@ -1,7 +1,6 @@
 <template>
-  <Header />
-
-  <div class="container">
+  <div class="container border-gradient-purple">
+    <Header />
     <Balance :total="+total" />
     <IncomeExpense :income="+income" :expenses="+expenses" />
     <TransactionList
